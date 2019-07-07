@@ -60,3 +60,24 @@ li{
   color: hsl(33, 25%, 80%);
   font-weight: bold;
 }
+
+@media screen and (max-width: 640px){
+  p{
+    font-size: 1.3em;
+  }
+  p:last-child{
+    font-size: 1.1em;
+  }
+  ul{
+    width: 85vw;
+  }
+  li{
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 860px){
+  ul{
+    width: 75vw;
+  }
+}
